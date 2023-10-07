@@ -6,7 +6,7 @@ Curious to see how it works? Check out the [live demo](https://huggingface.co/sp
 
 ## Security Note
 
-This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store sensitive 
+This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
 
 ## Usage
 
