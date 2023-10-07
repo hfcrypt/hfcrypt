@@ -43,8 +43,10 @@ with open(zip_filename, 'wb') as file:
     file.write(encrypted_data)
 print(f'Copying template...')
 shutil.copytree('template', 'out')
-with open('out/README.md', 'r+') as f:
-    f.write(f.read().replace('__TITLE__', title))
+with open('out/README.md', 'r') as f:
+    fc = f.read().replace('__TITLE__', title)
+with open('out/README.md', 'w') as f:
+    f.write(fc)
 shutil.copy('app.hfc', 'out')
 print(f'Your key is:')
 print(key.decode())

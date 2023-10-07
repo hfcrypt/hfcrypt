@@ -1,7 +1,7 @@
 ---
 title: __TITLE__
 emoji: 🔒
-sdk: gradio
+sdk: docker
 license: other
 license_name: hfcrypt
 license_link: https://github.com/hfcrypt/hfcrypt
