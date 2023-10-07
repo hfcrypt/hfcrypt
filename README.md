@@ -6,6 +6,13 @@ Ever wanted to host something on Hugging Face Spaces but didn't want your code t
 
 HFCrypt is simple and easy to use! Just follow the following steps to get started!
 
+### Installation
+
+```sh
+git clone https://github.com/hfcrypt/hfcrypt
+python3 -m pip install -r requirements.txt
+```
+
 ### Preparation
 
 Before you convert your app, you'll need to do a couple simple steps to prepare your app.
