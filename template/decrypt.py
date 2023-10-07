@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 import zipfile
 import os
-key = os.environ["HFCRYPT_KEY"]
+key = os.environ["HFCRYPT_KEY"].encode()
 encrypted_filename = os.path.abspath(os.path.join(os.path.dirname(__file__), 'app.hfc'))
 
 with open(encrypted_filename, 'rb') as file:
