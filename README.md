@@ -65,4 +65,6 @@ There are several different ways to achieve this:
 
 License for the HFCrypt source code coming soon.
 
-The default license for encrypted spaces (feel free to change this) is available [here](HESC.md).
+The default license for encrypted spaces (feel free to change this) is available [here](HESC.md). It's just a modified version of the MIT license that says you can't reverse-engineer it or modify it. It also has a disclaimer.
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
