@@ -55,6 +55,12 @@ There are several different ways to achieve this:
 
 * [ ] Allow user to auto-upload to Hugging Face Spaces using CLI
 
+## Notes
+
+* This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
+* This package **will increase build time.**
+* You are responsible for complying with Hugging Face's terms of service.
+
 ## License
 
 License for the HFCrypt source code coming soon.
