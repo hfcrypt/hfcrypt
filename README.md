@@ -1,4 +1,4 @@
-# HFCrypt
+# :lock: HFCrypt
 
 Ever wanted to host something on Hugging Face Spaces but didn't want your code to be public? Look no further HFCrypt! HFCrypt encrypts your code to make your code closed-source! **TL;DR:** HFCrypt allows you to host closed-source apps on Hugging Face Spaces!
 
