@@ -12,21 +12,21 @@ This package uses Fernet encryption *and may be cracked with a brute-force attac
 
 HFCrypt is simple and easy to use! Just follow the following steps to get started!
 
-### :computer: Installation
+### - :computer: Installation
 
 ```sh
 git clone https://github.com/hfcrypt/hfcrypt
 python3 -m pip install -r requirements.txt
 ```
 
-### :computer_mouse: Preparation
+### - :computer_mouse: Preparation
 
 Before you convert your app, you'll need to do a couple simple steps to prepare your app.
 
 1. **IMPORTANT:** Set your app's external port to `7860`
    1. In Flask: `app.run('0.0.0.0', port=7860)`
 
-### :arrow_right: Conversion
+### - :arrow_right: Conversion
 
 Please place all the files for your app in the `app` folder.
 
@@ -38,7 +38,7 @@ Then run:
 python3 hfcrypt.py
 ```
 
-### :cloud: Deploy
+### - :cloud: Deploy
 
 Upload all the files in the `out` folder (**NOT** the folder itself, *only* the contents of the folder) to your Hugging Face Space.
 
