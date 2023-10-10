@@ -4,29 +4,29 @@ Ever wanted to host something on Hugging Face Spaces but didn't want your code t
 
 Curious to see how it works? Check out the [live demo](https://huggingface.co/spaces/mrfakename/hfcrypt-demo)!
 
-## Security Note
+## :warning: Security Note
 
 This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
 
-## Usage
+## :pen: Usage
 
 HFCrypt is simple and easy to use! Just follow the following steps to get started!
 
-### Installation
+### :computer: Installation
 
 ```sh
 git clone https://github.com/hfcrypt/hfcrypt
 python3 -m pip install -r requirements.txt
 ```
 
-### Preparation
+### :computer_mouse: Preparation
 
 Before you convert your app, you'll need to do a couple simple steps to prepare your app.
 
 1. **IMPORTANT:** Set your app's external port to `7860`
    1. In Flask: `app.run('0.0.0.0', port=7860)`
 
-### Conversion
+### :arrow_right: Conversion
 
 Please place all the files for your app in the `app` folder.
 
@@ -38,30 +38,30 @@ Then run:
 python3 hfcrypt.py
 ```
 
-### Deploy
+### :cloud: Deploy
 
 Upload all the files in the `out` folder (**NOT** the folder itself, *only* the contents of the folder) to your Hugging Face Space.
 
 Then, set the `HFCRYPT_KEY` secret (**NOT variable!**) to the key given in the CLI!
 
-## Approaches
+## :thought_balloon: Approaches
 
 There are several different ways to achieve this:
 
 * Store a GitHub token in Hugging Face Spaces Secrets and set the SDK to Docker. Have the Dockerfile clone from a GitHub private repository using the token. But this requires a GitHub repository and doesn't support large files. ([Forum thread](https://discuss.huggingface.co/t/share-app-url-without-sharing-the-files-and-version/26182))
 * Use HFCrypt: Encrypt your source code, and save the key in Hugging Face Spaces
 
-## Todo
+## :heavy_check_mark: Todo
 
 * [ ] Allow user to auto-upload to Hugging Face Spaces using CLI
 
-## Notes
+## :spiral_notepad: Notes
 
 * This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
 * This package **will increase build time.**
 * You are responsible for complying with Hugging Face's terms of service.
 
-## License
+## :scroll: License
 
 License for the HFCrypt source code coming soon.
 
