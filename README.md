@@ -76,9 +76,10 @@ There are several different ways to achieve this:
 
 ## :heavy_check_mark: Todo
 
-* [ ] Allow user to auto-upload to Hugging Face Spaces using CLI
+* [ ] Allow user to auto-upload to Hugging Face Spaces using HF CLI
 * [ ] Implement SimpleSplit for large file uploads
 * [ ] Add decryption CLI
+* [ ] Allow CLI usage
 
 ## :spiral_notepad: Notes
 
