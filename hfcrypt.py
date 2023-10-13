@@ -9,7 +9,7 @@ print("""
                            |___/|_|        
 HFCrypt: host closed-source apps on Hugging Face Spaces!
 
-IMPORTANT! Make sure you're app's external port is set to "7860"!""")
+Thank you for using HFCrypt Beta!""")
 import os
 import sys
 import zipfile
