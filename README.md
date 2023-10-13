@@ -82,6 +82,7 @@ There are several different ways to achieve this:
 * [ ] Implement SimpleSplit for large file uploads
 * [ ] Add decryption CLI
 * [ ] Allow CLI usage
+* [ ] Add GitHub Actions example
 
 ## :spiral_notepad: Notes
 
