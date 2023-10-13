@@ -55,6 +55,8 @@ Please place all the files for your app in the `app` folder.
 
 **Make sure your main server file is named `app.py`!**
 
+Make sure the host is `0.0.0.0`
+
 Then run:
 
 ```
