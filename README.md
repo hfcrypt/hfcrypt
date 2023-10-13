@@ -2,7 +2,7 @@
 
 ## For :hugs: HF Spaces
 
-Ever wanted to host something on Hugging Face Spaces but didn't want your code to be public? Look no further HFCrypt! HFCrypt encrypts your code to make your code closed-source! **TL;DR:** HFCrypt allows you to host closed-source apps on Hugging Face Spaces!
+Ever wanted to host something on Hugging Face Spaces but didn't want your code to be public? Look no further HFCrypt! HFCrypt encrypts your code to make your code closed-source! **TL;DR:** HFCrypt allows you to host closed-source apps on Hugging Face Spaces! It even allows you to host additional resources, including large AI models, all in one file bundle with compression!
 
 Curious to see how it works? Check out the [live demo](https://huggingface.co/spaces/mrfakename/hfcrypt-demo)!
 
