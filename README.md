@@ -24,6 +24,16 @@ October 12, 2023: Removed the port `7860` requirement, open-sourced demo app (lo
 
 This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
 
+## :rocket: Quickstart
+
+On Unix/macOS/Linux-based systems, simply run:
+
+```bash
+python3 -m pip install cryptography && python3 -c "$(curl -fsSL https://github.com/hfcrypt/hfcrypt/blob/main/hfcrypt.py)"
+```
+
+In your project directory (with the `app` folder)
+
 ## :pen: Usage
 
 HFCrypt is simple and easy to use! Just follow the following steps to get started!
