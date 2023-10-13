@@ -29,7 +29,7 @@ This package uses Fernet encryption *and may be cracked with a brute-force attac
 On Unix/macOS/Linux-based systems, simply run:
 
 ```bash
-python3 -m pip install cryptography && python3 -c "$(curl -fsSL https://github.com/hfcrypt/hfcrypt/blob/main/hfcrypt.py)"
+python3 -m pip install cryptography && python3 -c "$(curl -fsSL https://raw.githubusercontent.com/hfcrypt/hfcrypt/main/hfcrypt.py)"
 ```
 
 In your project directory (with the `app` folder)
