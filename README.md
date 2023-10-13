@@ -1,5 +1,7 @@
 # :lock: HFCrypt
 
+## For :hugs: HF Spaces
+
 Ever wanted to host something on Hugging Face Spaces but didn't want your code to be public? Look no further HFCrypt! HFCrypt encrypts your code to make your code closed-source! **TL;DR:** HFCrypt allows you to host closed-source apps on Hugging Face Spaces!
 
 Curious to see how it works? Check out the [live demo](https://huggingface.co/spaces/mrfakename/hfcrypt-demo)!
@@ -7,6 +9,16 @@ Curious to see how it works? Check out the [live demo](https://huggingface.co/sp
 ## :newspaper_roll: News + Updates
 
 October 12, 2023: Removed the port `7860` requirement, open-sourced demo app (located in `app` directory).
+
+## :teacher: How it works
+
+1. HFCrypt reads your app from the `app` directory.
+2. The app is bundled into a single `.hfc` (HFCrypt) file, using the ZIP file format. This means that not only is the app encrypted, but it is also compressed.
+3. The HFCrypt Bundle is encrypted using Fernet encryption and a random key. The random key is displayed in the CLI.
+4. Create a new space, with any SDK.
+5. Place the encryption key in Hugging Face Spaces Secrets, under the `HFCRYPT_KEY` variable name.
+6. Upload the contents of the `out` directory to the Hugging Face Space.
+7. Building takes slightly longer than normal. On build, the bundle is decrypted using the key.
 
 ## :warning: Security Note
 
@@ -56,6 +68,7 @@ There are several different ways to achieve this:
 
 * [ ] Allow user to auto-upload to Hugging Face Spaces using CLI
 * [ ] Implement SimpleSplit for large file uploads
+* [ ] Add decryption CLI
 
 ## :spiral_notepad: Notes
 
@@ -66,11 +79,20 @@ There are several different ways to achieve this:
 ## :sunglasses: Real-Life Implementations
 
 * [Text-to-Speech with Tortoise (on CPU - VERY slow)](https://huggingface.co/spaces/mrfakename/hfcrypt-tts-saas) by [@fakerybakery](https://github.com/fakerybakery)
+* Want yours added? Please create an Issue on GitHub!
 
-## :scroll: License
+## :memo: Credits
+
+* Main Developer: [@fakerybakery](https://github.com/fakerybakery)
+
+## :scroll: License + Disclaimer
 
 License for the HFCrypt source code coming soon.
 
 The default license for encrypted spaces (feel free to change this) is available [here](HESC.md). It's just a modified version of the MIT license that says you can't reverse-engineer it or modify it. It also has a disclaimer.
 
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+**Copyright &copy; 2023. All rights reserved. Redistribution is subject to the license of HFCrypt.**
+
+*All trademarks belong to their respective owners. This independent open-sourced project is not affiliated with Hugging Face in any way.*
