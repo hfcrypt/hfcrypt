@@ -109,3 +109,5 @@ THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 **Copyright &copy; 2023. All rights reserved. Redistribution is subject to the license of HFCrypt.**
 
 *All trademarks belong to their respective owners. This independent open-sourced project is not affiliated with Hugging Face in any way.*
+
+<a href="https://hfcrypt.github.io/"><img src="https://github.com/hfcrypt/hfcrypt/assets/76186054/fd401cad-3849-46d0-9410-3d2949507a89" width="256"></a>
