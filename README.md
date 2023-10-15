@@ -83,6 +83,7 @@ There are several different ways to achieve this:
 * [ ] Add decryption CLI
 * [ ] Allow CLI usage
 * [ ] Add GitHub Actions example
+* [ ] Support other app types, i.e. Node, Docker, etc
 
 ## :spiral_notepad: Notes
 
