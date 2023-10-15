@@ -92,7 +92,6 @@ There are several different ways to achieve this:
 
 ## :sunglasses: Real-Life Implementations
 
-* [Text-to-Speech with Tortoise (on CPU - VERY slow)](https://huggingface.co/spaces/mrfakename/hfcrypt-tts-saas) by [@fakerybakery](https://github.com/fakerybakery)
 * Want yours added? Please create an Issue on GitHub!
 
 ## :memo: Credits
