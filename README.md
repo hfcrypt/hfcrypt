@@ -23,7 +23,7 @@ October 12, 2023: Removed the port `7860` requirement, open-sourced demo app (lo
 ## :warning: Security Note
 
 This package uses Fernet encryption *and may be cracked with a brute-force attack.* Please do not store highly sensitive code using HFCrypt. We are not liable for loss of code or if it is exposed.
-
+<!--
 ## :rocket: Quickstart
 
 On Unix/macOS/Linux-based systems, simply run:
@@ -33,6 +33,7 @@ python3 -m pip install cryptography && python3 -c "$(curl -fsSL https://raw.gith
 ```
 
 In your project directory (with the `app` folder)
+-->
 
 ## :pen: Usage
 
