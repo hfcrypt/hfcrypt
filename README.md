@@ -98,7 +98,7 @@ License for the HFCrypt source code coming soon.
 
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**Copyright &copy; 2023. All rights reserved. Redistribution is subject to the license of HFCrypt.**
+**Copyright &copy; 2024. All rights reserved. Redistribution is subject to the license of HFCrypt.**
 
 *All trademarks belong to their respective owners. This independent open-sourced project is not affiliated with Hugging Face in any way.*
 
