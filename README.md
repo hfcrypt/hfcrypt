@@ -1,4 +1,4 @@
-## HFCrypt
+# HFCrypt
 
 Secure your code on Hugging Face Spaces. Encrypt and protect your proprietary machine learning applications.
 
