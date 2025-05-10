@@ -22,9 +22,10 @@ If you plan to push your app to a Hugging Face Space (you will be asked during t
 hfcrypt path_to_your_app /tmp/hfcrypt_output
 ```
 
-## Coming Soon
+## Roadmap
 
 - GitHub Actions workflow to automatically encrypt your app and push to HF when you push to a repo
+- Better support for HF Spaces configuration (e.g. app_file, etc.)
 
 ## License
 
